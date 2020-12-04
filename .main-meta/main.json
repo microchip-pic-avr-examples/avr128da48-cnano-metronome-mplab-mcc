@@ -5,26 +5,26 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-metronome-mplab-mcc",
         "version": "1.0.0",
-        "displayName": "  ",
+        "displayName": "Driving a metronome",
         "projectName": "avr128da48-cnano-metronome-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This repository contains an MCC generated code example for driving a metronome. The application consists of a circuit composed of Core Independent Peripherals (CIPs), which is capable of creating the signals that drive the Switec stepper motor as a metronome.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.30.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx",
+            "semverRange": "1.6.88"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "4.0.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,19 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "AVR128DA48",
                 "versionRange": "*"
             }
         },
         "author": "",
         "subcategories": [
+			[
+				"peripherals", "CCL"
+			]
         ],
-        "peripherals": [
+        "peripherals": [ "CCL"
         ],
-        "keywords": [
+        "keywords": [ "Metronome", "Driving a metronome", "Switec stepper", "Stepper motor", "Stepper", "Core Independent Peripherals", "Configurable logic"
         ],
 		"additionalData": {
 			"longDescription": {
