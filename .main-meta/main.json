@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-metronome-mplab-mcc",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Driving a metronome",
         "projectName": "avr128da48-cnano-metronome-mplab-mcc",
         "shortDescription": "This repository contains an MCC generated code example for driving a metronome. The application consists of a circuit composed of Core Independent Peripherals (CIPs), which is capable of creating the signals that drive the Switec stepper motor as a metronome.",
