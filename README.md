@@ -19,7 +19,7 @@ The metronome begins oscillating with a specific frequency and to modify it, the
 
 ## Related Documentation
  More details and code examples on the AVR128DA48 can be found at the following links:
- - [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA28)
+ - [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA48)
  - [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48)
  - [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
  - [Switec Stepper Documentation](https://guy.carpenter.id.au/gaugette/resources/switec/X25_xxx_01_SP_E-1.pdf)
@@ -183,10 +183,10 @@ VREF
  4. Clean and build the avr128da48-cnano-metronome-mplab-mcc.X project: Right click on the **avr128da48-cnano-metronome-mplab-mcc.X** project and select **Clean and Build**.
  <br><img src="images/Clean_and_Build.png" width="600">
 
- 5. Select the **AVR128DA28 Curiosity Nano** in the Connected Hardware Tool section of the project settings:
+ 5. Select the **AVR128DA48 Curiosity Nano** in the Connected Hardware Tool section of the project settings:
    - Right click on the project and click **Properties**
    - Click on the arrow right next to Connected Hardware Tool
-   - Select the AVR128DA28 Curiosity Nano (click on the **SN**), click **Apply** and then click **OK**:
+   - Select the AVR128DA48 Curiosity Nano (click on the **SN**), click **Apply** and then click **OK**:
 
   <br><img src="images/Tool_Selection.png" width="600">
 
